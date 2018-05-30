@@ -1,0 +1,32 @@
+
+
+$mycolor: pink;
+
+body{
+    background-image: url('../images/Shop-Header.jpg');
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive
+  }
+  
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .task {
+      padding: 20px;
+      border: 1px;
+      border-bottom-style: solid;
+      background: white;
+      opacity: 0.75;
+      margin: 20px;
+      border-radius: 3px;
+  }
