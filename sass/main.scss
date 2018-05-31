@@ -3,7 +3,13 @@
 $mycolor: pink;
 
 body{
-    background-image: url('../images/Shop-Header.jpg');
+    background-image: url('../images/ToDoBackground.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 h1{
@@ -21,12 +27,34 @@ h3 {
     font-family: 'Poppins', sans-serif;
   }
 
-  .task {
-      padding: 20px;
-      border: 1px;
-      border-bottom-style: solid;
-      background: white;
-      opacity: 0.75;
-      margin: 20px;
-      border-radius: 3px;
+  .input-field  {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ef9a9a;
+    opacity: 0.75;    
+    border-radius: 5px;
   }
+
+  .materialize-textarea {
+    color: white;
+  }
+
+  .btn-floating {
+    float: right;
+    margin-top: -50px;
+  }
+
+  .task {
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    border-bottom-style: solid;
+    background: white;
+    opacity: 0.75;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+

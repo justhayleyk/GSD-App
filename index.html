@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
+    
     <div class="container">
         <div class="hero">
             <h1 class="display-2 text center"> MY TO DO LIST</h1>   
@@ -21,16 +22,18 @@
    
     
     <div class="container">
-        <div class="row">
-            <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s10">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">What do you need to do today?</label>
-                        <a class="btn-floating btn-large waves-effect waves-light red lighten-2"><i class="material-icons">add</i></a>
+        <div class="container">
+            <div class="row">
+                <form>
+                    <div class="row col s12">
+                        <div class="input-field">
+                            <textarea id="textarea1" class="materialize-textarea" placeholder="Enter your task here"></textarea><a id="addTask" class="btn-floating red lighten-2"><i class="material-icons">add</i></a>
+                        </div>
+                        <div>
+                            </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
         <div class="container">
             <div class="row">
@@ -44,8 +47,9 @@
 
             </div>
         </div>
-    </div>
-               
+    </div> 
+
+    <script type="text/javascript" src="js/todoapp.js"></script>
 
 </body>
 </html>
